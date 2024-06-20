@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebXR OBJ Viewer</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@6.1.0/dist/aframe-extras.loaders.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="model-obj" src="https://raw.githubusercontent.com/Liu-Curiously/WebXR/main/model.obj?token=GHSAT0AAAAAACTUDJR5C6XRD26D2IXIFHUEZTUPYCA"></a-asset-item>
+      </a-assets>
+      <a-entity obj-model="obj: #model-obj" position="0 1.6 -3"></a-entity>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
